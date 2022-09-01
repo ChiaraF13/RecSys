@@ -8,6 +8,21 @@ Each TV show (for instance, "The Big Bang Theory") can be composed by several ep
 ## Goal
 The goal is to recommend a list of 10 potentially relevant items for each user.
 
+## Recomenders
+Note that the basic (non hybrid) reccomender implementations come from [this repository](https://github.com/MaurizioFD/RecSys_Course_AT_PoliMi)  
+The following reccomenders were used in the various approaches:  
+* Item and User based Collaborative Filtering
+* Item Content Based Filtering
+* P3Alpha and RP3Beta Graph Based models
+* Pure SVD
+* Slim BPR and Slim ElasticNet
+* Hybrids of these models
+
+## Best recomender
+
+
+
+
 ## Dataset
 The datasets includes around 6.2M interactions, 13k users, 18k items (TV shows) and four feature categories: 8 genres, 213 channels, 113 subgenres and 358k events (episode ids). 
 The training-test **split** is done via random holdout, 85% training, 15% test. 
